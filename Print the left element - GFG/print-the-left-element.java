@@ -41,7 +41,7 @@ class Solution {
     public long leftElement(long arr[], long n)
     {
         // Your code goes here  
-        // Arrays.sort(arr);
+        Arrays.sort(arr);
         boolean flag = true;
         int left=0, right=(int)n-1;
         for(int i=0;i<n-1;i++){
